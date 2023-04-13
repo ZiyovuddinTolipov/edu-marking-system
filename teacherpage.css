@@ -1,0 +1,243 @@
+body {
+    background-color: rgba(0, 0, 0, 0.138);
+    height: 500px;
+    overflow: hidden;
+    
+}
+.head {
+    background-color: #5CB2FA;
+    width: 98%;
+    height: 80px;
+    border-radius: 10px;
+    /* box-shadow: 5px 10px 15px; */
+    display: flex;
+    justify-content: start;
+    /* display: flex;
+    padding-top: 1%; */
+}
+.head img {
+    height:100% ;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 200px;
+}
+
+.sideMenu {
+    background-color: #5CB2FA;
+    width: 25%;
+    margin-top: 1%;
+    height: 575px;
+    margin-left: 1.2%;
+    border-radius: 20px;
+    padding-bottom: 2%;
+    overflow-y: scroll;
+    padding-top: 2%;
+    justify-content: start;
+    margin-bottom: 10%;
+}
+
+.sideMenu::-webkit-scrollbar {
+    width: 2em;
+}
+
+.sideMenu::-webkit-scrollbar-track {
+    background: hsl(120, 75% 59% / 1);
+    border-radius: 100vh;
+    margin-block: .5em;
+    margin-right: 3em;
+}
+
+.sideMenu::-webkit-scrollbar-thumb {
+    border-radius: 100vw;
+    background: hsl(205, 38%, 42%);
+
+}
+
+.sideMenu::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 0%, 100%);
+}
+
+
+.button{
+    /* height: 500px; */
+    overflow-y:  scroll;
+
+}
+.button .teacher{
+    box-shadow: 5px 10px 20px;
+    border-radius: none;
+    margin-left: 10%;
+    border: solid rgb(0, 0, 0) 1px; 
+    width: 80%;
+    margin-top: 5%;
+    background-color: #5cc0fa;
+    font-size: 250%;
+    border-radius: 15px;
+}
+.button .teacher a {
+    width: 100% auto;
+    justify-content: center; 
+    text-decoration: none;
+    color: black;
+}
+.button .teacher:hover{
+    box-shadow: 10px 12px 15px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    margin-left: 2%;
+    font-size: 50px;
+    margin-top: 1%;
+}
+.parentContainer {
+  display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin-right: 10% ;
+}   
+.line{
+    padding: 2px;
+    height: 2%;
+    cursor: pointer;
+    background-color: rgba(0, 54, 202, 0.786);
+}
+
+
+.bodyContainer{
+    align-items: center;
+    color: #000000;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.bodyContainer img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.tablecont{
+    margin-top: 4%;
+    width: 100%;
+    height: 100%;
+    overflow-y:scroll ;
+    width: 900;
+    height: 300px;
+}
+
+ 
+.table tr th{
+    padding: 21px;
+    border: 2px solid rgb(7, 59, 74);
+    text-align: center;
+    color: #000000;
+    border-radius: 5px;
+    
+} 
+
+.table p {
+    color: black ;
+}
+.radio{
+    width: 100%;
+    background-color: #000000;
+}
+ .bnm {
+    background-color: rgb(8, 8, 8);
+    margin-left: 99%;
+    margin-top: 3%;
+    width: 75px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    
+}
+.bnm {
+    text-decoration: none;
+    align-items:center;
+    color: #ffffff;
+    font-size: 19px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.popup{
+    width: 400px;
+    background : #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% ,-50% ) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    transition: transform 0.4s top 0.4s;
+    visibility: hidden;
+    box-shadow: 5px 5px 15px 5px;
+
+
+}
+.popup p{
+    margin-top: 10%;
+}
+.popup input{
+    margin-top: 40px;
+    width: 250px;
+    height: 30px;
+    border-color: rgba(0, 91, 157, 0);
+    border-radius:5px;
+    background-color:rgb(193, 193, 193);
+}
+.popup input:hover{
+    border-color:rgb(0, 0, 0);
+}
+.openPopup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50% ,-50% ) scale(1);
+
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup  button {
+    width: 60%;
+    margin-bottom: 105;
+    margin-top: 50px;
+    padding: 10px 0;
+    background:rgb(88, 171, 255);
+    color: rgb(9, 8, 8);
+    border:0;
+    outline: none;
+    font-size: 18px;
+    border-radius:4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2)
+}
+.popup a{
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: 0.9em;
+    height: 2em;
+}
+::-webkit-scrollbar-track{
+    background: hsl(120, 75% 59% / 1);
+    border-radius: 100vh;
+
+}
+::-webkit-scrollbar-thumb{
+    background: #a49b87;
+    border-radius: 100vh;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: hsl(0, 0%, 100%);
+}
+
