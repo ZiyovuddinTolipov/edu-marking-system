@@ -1,5 +1,4 @@
 body {
-    height: 500px;
     background-color: #DBD6CB;
     overflow: hidden;
 }
@@ -30,7 +29,8 @@ body {
 }
 
 .sideMenu::-webkit-scrollbar {
-    width: 2em;
+    width: 5px !important;
+    background:red;
 }
 
 .sideMenu::-webkit-scrollbar-track {
@@ -61,7 +61,7 @@ body {
     height: auto;
     margin-top: 5%;
     background-color: #5CB2FA;
-    font-size: 240%;
+    font-size: 30px;
     border-radius: 15px;
 }
 
@@ -88,7 +88,7 @@ body {
     border: solid rgb(0, 0, 0) 1px;
     cursor: pointer;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 
 }
