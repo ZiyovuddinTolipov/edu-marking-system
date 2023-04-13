@@ -18,6 +18,9 @@ body{
     margin-left: 1%;
     width: 200px;
 }
+table {
+    border-collapse: collapse;
+}
 
 .sideMenu {
     background-color: #5CB2FA;

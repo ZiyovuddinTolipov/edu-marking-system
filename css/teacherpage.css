@@ -99,9 +99,16 @@ h1 {
 .logo{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.logo .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo img {
     margin-right: 10% ;
+    width: 50px;
 }   
 .line{
     padding: 2px;
@@ -118,8 +125,8 @@ h1 {
     margin-left: 5%;
 }
 .bodyContainer img{
-    width: 150px;
-    height: 150px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     
 }
