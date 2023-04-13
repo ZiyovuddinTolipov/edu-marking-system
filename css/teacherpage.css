@@ -21,7 +21,9 @@ body {
     margin-left: 1%;
     width: 200px;
 }
-
+table {
+    border-collapse: collapse;
+}
 .sideMenu {
     background-color: #5CB2FA;
     width: 25%;
@@ -71,7 +73,7 @@ body {
     width: 80%;
     margin-top: 5%;
     background-color: #5cc0fa;
-    font-size: 250%;
+    font-size: 30px;
     border-radius: 15px;
 }
 .button .teacher a {
@@ -139,6 +141,15 @@ h1 {
     border-radius: 5px;
     
 } 
+input[value="Yuborish"]{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #fff;
+    border: none !important;
+    font-size: 30px;
+    background-color: #5cc0fa;
+}
 
 .table p {
     color: black ;
