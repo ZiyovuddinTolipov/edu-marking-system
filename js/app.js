@@ -1,9 +1,9 @@
 
 // https://studenttable.pythonanywhere.com/rating/
-let userName=document.getElementById('fname').value
-let gruh=document.getElementById('Gruh').value
-let email=document.getElementById('email').value
-let phoneNumber=document.getElementById('phoneNumber').value
+// let userName=document.getElementById('fname').value
+// let gruh=document.getElementById('Gruh').value
+// let email=document.getElementById('email').value
+// let phoneNumber=document.getElementById('phoneNumber').value
 
 const inputName = document.querySelector("#myForm");
 
@@ -16,7 +16,7 @@ inputName.addEventListener("submit", async function(e){
     Email:e.target[2].value,
     telefonRaqami:e.target[3].value
   }
-  console.log(user);
+  console.log(e.target[0].value,"hi");
   e.preventDefault();
   let response = await fetch('https://studenttable.pythonanywhere.com/', {
     method: 'POST',

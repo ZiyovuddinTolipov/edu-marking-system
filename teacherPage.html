@@ -75,12 +75,12 @@
 
               <tr>
                 <th>
-                  <input type="text" name="id" value="1" readonly="readonly">
+                  <input type="text" name="user-1" value="1" readonly="readonly">
 
                 </th>
                 <th>
 
-                  <input type="text" name="user" value="Knowing subject " readonly="readonly">
+                  <input type="text" name="user-1" value="Knowing subject " readonly="readonly">
                 </th>
 
                 <th>
@@ -103,12 +103,12 @@
               <tr>
 
                 <th>
-                  <input type="text" name="id" value="2" readonly="readonly">
+                  <input type="text" name="user-2" value="2" readonly="readonly">
 
                 </th>
                 <th>
 
-                  <input type="text" name="user" value="Abduvali " readonly="readonly">
+                  <input type="text" name="user-2" value="Abduvali " readonly="readonly">
                 </th>
                 <th>
                   <label for="mark1">
@@ -128,10 +128,10 @@
 
               <tr>
                 <th>
-                  <input type="text" name="id" value="3" readonly="readonly">
+                  <input type="text" name="user-3" value="3" readonly="readonly">
                 </th>
                 <th>
-                  <input type="text" name="user" value="Lorem aka " readonly="readonly">
+                  <input type="text" name="user-3" value="Lorem aka " readonly="readonly">
                 </th>
                 <th>
                   <label for="mark2">
@@ -151,12 +151,12 @@
               </tr>
               <tr>
                 <th>
-                  <input type="text" name="id" value="4" readonly="readonly">
+                  <input type="text" name="user-4" value="4" readonly="readonly">
 
                 </th>
                 <th>
 
-                  <input type="text" name="user" value="Lorem Tog'a " readonly="readonly">
+                  <input type="text" name="user-4" value="Lorem Tog'a " readonly="readonly">
                 </th>
                 <th>
                   <label for="mark3">
@@ -176,10 +176,10 @@
               </tr>
               <tr>
                 <th>
-                  <input type="text" name="id" value="5" readonly="readonly">
+                  <input type="text" name="user-5" value="5" readonly="readonly">
                 </th>
                 <th>
-                  <input type="text" name="user" value="Lorem Xola " readonly="readonly">
+                  <input type="text" name="user-5" value="Lorem Xola " readonly="readonly">
                 </th>
                 <th>
                   <label for="mark4">
@@ -199,12 +199,12 @@
               </tr>
               <tr>
                 <th>
-                  <input type="text" name="id" value="6" readonly="readonly">
+                  <input type="text" name="user-6" value="6" readonly="readonly">
 
                 </th>
                 <th>
 
-                  <input type="text" name="user" value="Lorem xola " readonly="readonly">
+                  <input type="text" name="user-6" value="Lorem xola " readonly="readonly">
                 </th>
                 <th>
                   <label for="mark5">
@@ -224,6 +224,7 @@
               </tr>
 
               <th colspan="3"><input type="submit" value="Yuborish">
+
               </th>
             </table>
 
@@ -231,6 +232,7 @@
 
         </div>
       </div>
+
 
       <div class="mbutton">
         <button type="submit" class="bnm" onclick="openPopup()">Submit</button>
@@ -240,11 +242,24 @@
             dolorem aspernatur recusandae ab eaque distinctio error minima possimus.</p>
           <form>
             <input type="password" placeholder="passwordd" maxlength="8">
-            <button type="button" onclick="closePopup()"><a href="./teachersMarks.html">OK</a></button>
+            <button type="button" id="submit" value="Yuborish"><a href="./teachersMarks.html">OK</a></button>
           </form>
         </div>
       </div>
 
+
+      <div class="mbutton" id="myModal">
+        <!-- <button type="submit" class="bnm" onclick="openPopup()">Submit</button> -->
+        <div class="popup" id="popup">
+          <h2>Thank you</h2>
+          <p>Lorem ipsum dolor sit amet. Obcaecati
+            dolorem aspernatur recusandae ab eaque distinctio error minima possimus.</p>
+          <form>
+            <input type="password" placeholder="passwordd" maxlength="8">
+            <button type="button close" onclick="closePopup()" ><a href="./teachersMarks.html">OK</a></button>
+          </form>
+        </div>
+      </div>
 
       <!-- ? -->
 
