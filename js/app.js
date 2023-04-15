@@ -16,6 +16,7 @@ inputName.addEventListener("submit", async function(e){
     Email:e.target[2].value,
     telefonRaqami:e.target[3].value
   }
+  console.log(user);
   e.preventDefault();
   let response = await fetch('https://studenttable.pythonanywhere.com/', {
     method: 'POST',
